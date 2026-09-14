@@ -1,0 +1,87 @@
+{
+  "bar": {
+    "centerAnchor": "promaa.clock",
+    "layout": {
+      "center": [
+        {
+          "id": "omarchy.indicators"
+        },
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "promaa.clock",
+          "format": "dddd HH:mm",
+          "formatAlt": "d MMMM 'W'ww yyyy",
+          "verticalFormat": "HH\n—\nmm",
+          "notifyUpcomingEvents": true,
+          "enableMeetingLinks": true,
+          "weekStartDay": "sunday",
+          "syncIntervalMinutes": 0,
+          "notifyMinutesBefore": 15,
+          "clockHourCycle": 24
+        },
+        {
+          "id": "omarchy.weather"
+        },
+        {
+          "id": "omarchy.system-update"
+        },
+        {
+          "id": "io.github.weedwhitesandwine.omazone"
+        },
+        {
+          "id": "io.github.promaaa.omamoney"
+        }
+      ],
+      "left": [
+        {
+          "id": "omarchy.menu"
+        },
+        {
+          "id": "omarchy.workspaces"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "gladimdim.config-sync"
+        },
+        {
+          "id": "davefano.trackpad-plus"
+        },
+        {
+          "id": "omarchy.dropbox"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power"
+        }
+      ]
+    },
+    "position": "top",
+    "transparent": false
+  },
+  "idle": {
+    "lock": 300,
+    "screensaver": 150
+  },
+  "plugins": [],
+  "version": 1
+}

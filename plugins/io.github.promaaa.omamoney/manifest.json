@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.promaaa.omamoney",
+  "name": "OmaMoney",
+  "version": "1.0.0",
+  "author": "promaaa",
+  "license": "MIT",
+  "description": "Live multi-currency & FX exchange rate widget for the Omarchy status bar. Features live EUR ⇄ KRW rates with an interactive converter panel, Korean numeral units (man/eok), and quick student & living expense presets.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "OmaMoney",
+    "description": "Live EUR ⇄ KRW status bar pill with interactive currency converter popup",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}

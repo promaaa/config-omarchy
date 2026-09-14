@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.weedwhitesandwine.omazone",
+  "name": "Omazone",
+  "version": "0.2.0",
+  "author": "weedwhitesandwine",
+  "license": "MIT",
+  "description": "A multi-timezone clock that displays compact timezone clocks directly on the status bar and drops down an interactive time travel panel. Track any number of cities with custom labels, flags, and icons, preview future moments across all time zones at once, and customize the bar display style.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Omazone",
+    "description": "Compact multi-timezone status bar clock with time-travel popup",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
