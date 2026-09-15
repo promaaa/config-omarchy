@@ -16,10 +16,9 @@
           "verticalFormat": "HH\n—\nmm",
           "notifyUpcomingEvents": true,
           "enableMeetingLinks": true,
-          "weekStartDay": "sunday",
+          "weekStartDay": "monday",
           "syncIntervalMinutes": 0,
-          "notifyMinutesBefore": 15,
-          "clockHourCycle": 24
+          "notifyMinutesBefore": 5
         },
         {
           "id": "omarchy.weather"
@@ -56,10 +55,10 @@
           "id": "omarchy.dropbox"
         },
         {
-          "id": "omarchy.agents"
+          "id": "omarchy.bluetooth"
         },
         {
-          "id": "omarchy.bluetooth"
+          "id": "omarchy.agents"
         },
         {
           "id": "omarchy.network"

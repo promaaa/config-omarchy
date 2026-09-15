@@ -27,5 +27,5 @@ require("default.hypr.toggles")
 
 -- Add any other personal Hyprland configuration below.
 -- o.window("qemu", { workspace = "5" })
-o.window("^(nz.co.mega.megasync|megasync)$", { tag = "+floating-window" })
+o.window("^(MEGAsync|nz.co.mega.megasync|megasync)$", { float = true, center = true, tag = "+floating-window" })
 o.window("^(kakaotalk\\.exe|KakaoTalk\\.exe)$", { float = true })

@@ -1,5 +1,9 @@
 {
   "format": "omarchy-config",
   "version": 1,
-  "synced_by": "gladimdim.config-sync"
+  "synced_by": "gladimdim.config-sync",
+  "machine_local": [
+    "hypr/monitors.lua",
+    "hypr/monitors.conf"
+  ]
 }

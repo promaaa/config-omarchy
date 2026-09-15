@@ -32,12 +32,14 @@
     "icon": "",
     "label": "Pilot Archy",
     "description": "Open a terminal and connect to Archy over SSH",
-    "action": "xdg-terminal-exec --title=Archy -- $HOME/.local/bin/pilot-archy"
+    "action": "xdg-terminal-exec --title=Archy -- $HOME/.local/bin/pilot-archy",
+    "when": "[ $(hostname) != 'archy' ]"
   },
   "remote-archy": {
     "icon": "󰢹",
     "label": "Remote Archy",
     "description": "Remote desktop connection to Archy",
-    "action": "$HOME/.local/bin/remote-archy"
+    "action": "$HOME/.local/bin/remote-archy",
+    "when": "[ $(hostname) != 'archy' ]"
   }
 }
