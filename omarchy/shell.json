@@ -21,7 +21,8 @@
           "notifyMinutesBefore": 5
         },
         {
-          "id": "omarchy.weather"
+          "id": "omarchy.weather",
+          "unit": "metric"
         },
         {
           "id": "omarchy.system-update"
