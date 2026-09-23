@@ -53,3 +53,6 @@ hl.layer_rule({
 })
 
 
+
+-- config-sync cherry-pick
+o.bind("twosuperior", "Stop dictation (push-to-talk)", "voxtype record stop", { release = true })
